@@ -107,6 +107,7 @@ export const updateUserPassword = async(req, res, next) =>{
 
 
 
+
 // 7. DELETE USER 
 export const deleteUser = async (req, res, next) =>{
     try{
