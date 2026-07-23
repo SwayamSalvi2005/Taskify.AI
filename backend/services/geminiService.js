@@ -382,7 +382,7 @@ Please provide a helpful, friendly response based on this complete profile and t
             return { text: finalText, taskActionPerformed: functionResult.success === true };
         }
 
-        // ── Normal text-only reply ──────────────────────────────────────────
+       
         const aiResponse = parts.find(p => p.text)?.text;
 
         if (!aiResponse) {
